@@ -5,91 +5,125 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Favourd Threads</title>
 
-<link rel="stylesheet" href="style.css">
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#f5f5f5;
+}
+
+header{
+background:#000;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+header h1{
+margin:0;
+font-size:32px;
+}
+
+.hero{
+padding:60px 20px;
+text-align:center;
+background:#111;
+color:white;
+}
+
+.hero h2{
+font-size:38px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+max-width:600px;
+margin:auto;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:15px 35px;
+background:#d4af37;
+color:black;
+text-decoration:none;
+font-weight:bold;
+border-radius:8px;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+padding:40px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+padding:15px;
+text-align:center;
+box-shadow:0 5px 10px rgba(0,0,0,.1);
+}
+
+.card img{
+width:100%;
+border-radius:8px;
+}
+
+footer{
+background:#000;
+color:white;
+text-align:center;
+padding:20px;
+}
+</style>
 
 </head>
 
 <body>
 
 <header>
-
-<div class="logo">
-<h1>FT</h1>
-<span>Favourd Threads</span>
-</div>
-
-<nav>
-<a href="#">Home</a>
-<a href="#">Shop</a>
-<a href="#">Collections</a>
-<a href="#">Contact</a>
-</nav>
-
+<h1>FAVOURD THREADS</h1>
 </header>
 
 <section class="hero">
+<h2>Premium Fashion For Every Style</h2>
+<p>Discover quality hoodies, t-shirts, jeans, sneakers and accessories delivered across Kenya.</p>
 
-<div class="hero-content">
-
-<h2>WEAR CONFIDENCE</h2>
-
-<p>
-Premium fashion designed for people who love quality, style and confidence.
-</p>
-
-<a href="https://wa.me/254768859795" class="btn">
-Order on WhatsApp
-</a>
-
-</div>
-
+<a class="btn" href="#">Shop Now</a>
 </section>
 
-<section class="about">
-
-<h2>Why Choose Favourd Threads?</h2>
-
-<div class="cards">
+<section class="products">
 
 <div class="card">
-<h3>Premium Quality</h3>
-<p>We select quality clothing that lasts.</p>
+<h3>Premium Hoodie</h3>
+<p>KSh 2,500</p>
 </div>
 
 <div class="card">
-<h3>Affordable Prices</h3>
-<p>Great fashion without breaking your budget.</p>
+<h3>Classic T-Shirt</h3>
+<p>KSh 1,200</p>
 </div>
 
 <div class="card">
-<h3>Fast Delivery</h3>
-<p>Delivery across many parts of Kenya.</p>
+<h3>Stylish Jeans</h3>
+<p>KSh 2,800</p>
 </div>
 
+<div class="card">
+<h3>Fashion Sneakers</h3>
+<p>KSh 4,500</p>
 </div>
 
 </section>
 
 <footer>
-
-<h2>Favourd Threads</h2>
-
-<p>Meru, Kenya</p>
-
-<p>
-WhatsApp:
-0142775661 /
-0768859795
-</p>
-
-<p>
-Email:
-Solomonngare8@gmail.com
-</p>
-
+WhatsApp: 0142775661 | 0768859795<br>
+Email: Solomonngare8@gmail.com
 </footer>
-
-<script src="script.js"></script>
 
 </body>
 </html>
