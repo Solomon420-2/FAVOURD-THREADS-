@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop | Favourd Threads</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#111;
+color:#fff;
+}
+
+header{
+background:#000;
+padding:20px;
+text-align:center;
+font-size:30px;
+font-weight:bold;
+color:#FFD700;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+padding:30px;
+}
+
+.card{
+background:#1d1d1d;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 0 15px rgba(0,0,0,.4);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:100%;
+height:320px;
+object-fit:cover;
+}
+
+.info{
+padding:20px;
+text-align:center;
+}
+
+.price{
+font-size:24px;
+color:#FFD700;
+margin:10px 0;
+}
+
+button{
+background:#FFD700;
+color:#000;
+padding:15px 25px;
+border:none;
+border-radius:30px;
+font-size:17px;
+font-weight:bold;
+cursor:pointer;
+}
+
+button:hover{
+background:white;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#000;
+margin-top:40px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+FT | Favourd Threads
+</header>
+
+<section class="products">
+
+<div class="card">
+<img src="images/tshirt.jpg">
+<div class="info">
+<h2>FT Essential Oversized T-Shirt</h2>
+<p>Premium cotton streetwear.</p>
+<div class="price">KSh 1,499</div>
+<button onclick="window.location.href='https://wa.me/254768859795'">Order on WhatsApp</button>
+</div>
+</div>
+
+<div class="card">
+<img src="images/hoodie.jpg">
+<div class="info">
+<h2>FT Premium Hoodie</h2>
+<p>Luxury heavyweight hoodie.</p>
+<div class="price">KSh 2,999</div>
+<button onclick="window.location.href='https://wa.me/254768859795'">Order on WhatsApp</button>
+</div>
+</div>
+
+<div class="card">
+<img src="images/jeans.jpg">
+<div class="info">
+<h2>FT Slim Fit Jeans</h2>
+<p>Modern premium denim.</p>
+<div class="price">KSh 2,499</div>
+<button onclick="window.location.href='https://wa.me/254768859795'">Order on WhatsApp</button>
+</div>
+</div>
+
+<div class="card">
+<img src="images/jacket.jpg">
+<div class="info">
+<h2>FT Urban Bomber Jacket</h2>
+<p>Luxury street fashion.</p>
+<div class="price">KSh 3,999</div>
+<button onclick="window.location.href='https://wa.me/254768859795'">Order on WhatsApp</button>
+</div>
+</div>
+
+<div class="card">
+<img src="images/sneakers.jpg">
+<div class="info">
+<h2>FT Classic Sneakers</h2>
+<p>Comfort meets style.</p>
+<div class="price">KSh 4,499</div>
+<button onclick="window.location.href='https://wa.me/254768859795'">Order on WhatsApp</button>
+</div>
+</div>
+
+<div class="card">
+<img src="images/cap.jpg">
+<div class="info">
+<h2>FT Signature Cap</h2>
+<p>Complete your outfit.</p>
+<div class="price">KSh 999</div>
+<button onclick="window.location.href='https://wa.me/254768859795'">Order on WhatsApp</button>
+</div>
+</div>
+
+</section>
+
+<footer>
+© 2026 Favourd Threads | Wear Confidence
+</footer>
+
+</body>
+</html>
